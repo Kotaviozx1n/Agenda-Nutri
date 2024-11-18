@@ -26,7 +26,14 @@ section {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
+a {
+    padding: 12px;
+    border: #000000 solid 2px;
+    border-radius: 16px;
+    background: #ddd;
+    text-decoration: none;
+    color: #000000;
+}
 h2 {
     color: #4CAF50;
 }
