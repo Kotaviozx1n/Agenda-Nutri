@@ -1,11 +1,9 @@
-/* Resetando alguns estilos básicos */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Fonte padrão */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -13,7 +11,6 @@ body {
     line-height: 1.6;
 }
 
-/* Estilo do cabeçalho */
 header {
     background-color: #c375f7;
     color: white;
@@ -52,7 +49,6 @@ nav a:hover {
     color: #d1d1d1;
 }
 
-/* Seções principais */
 section {
     padding: 40px 0;
 }
@@ -62,7 +58,6 @@ section h2 {
     margin-bottom: 20px;
 }
 
-/* Estilo da tabela */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -80,7 +75,6 @@ table th {
     color: white;
 }
 
-/* Estilo das dicas */
 ul {
     list-style: none;
     padding-left: 20px;
@@ -94,7 +88,6 @@ ul li strong {
     color: #c375f7;
 }
 
-/* Estilo do footer */
 footer {
     background-color: #333;
     color: white;
@@ -111,13 +104,11 @@ footer a:hover {
     text-decoration: underline;
 }
 
-/* Container comum para alinhamento */
 .container {
     width: 80%;
     margin: 0 auto;
 }
 
-/* Responsividade */
 @media (max-width: 768px) {
     header .container {
         flex-direction: column;
